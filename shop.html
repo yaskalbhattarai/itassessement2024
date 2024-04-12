@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kankrebihar Impex - Biggest shopping center</title>
+
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <h2 class="logo">Kankrebihar Impex</h2>
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <div class="header-search">
+        <input type="search" name="search" placeholder="Search Product..." class="input-field">
+
+        <button class="search-btn" aria-label="Search">
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+      </div>
+
+     
+
+      <div class="header-actions">
+
+        <button class="header-action-btn">
+          <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+          <p class="header-action-label">Sign in</p>
+        </button>
+
+        <button class="header-action-btn">
+          <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+
+          <p class="header-action-label">Search</p>
+        </button>
+
+        <button class="header-action-btn">
+          <ion-icon name="cart-outline" aria-hidden="true"></ion-icon>
+
+          <p class="header-action-label">Cart</p>
+
+          <div class="btn-badge green" aria-hidden="true">3</div>
+        </button>
+
+        <button class="header-action-btn">
+          <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+
+          <p class="header-action-label">Wishlisht</p>
+
+          <div class="btn-badge" aria-hidden="true">2</div>
+        </button>
+
+      </div>
+
+      <button class="nav-open-btn" data-nav-open-btn aria-label="Open Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+
+        
+
+          <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="home.html" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a class="active" href="shop.html" class="navbar-link">Shop</a>
+          </li>
+
+          <li>
+            <a href="about.html" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="blog.html" class="navbar-link">Blog</a>
+          </li>
+
+          <li>
+            <a href="contact.html" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+    </div>
+  </header>
+  <section class="section category">
+    <div class="container">
+
+      <ul class="category-list">
+
+        <li class="category-item">
+          <figure class="category-banner">
+            <img src="images/sportshoes cat1.jpeg" alt="Sport" loading="lazy" width="510" height="600"
+              class="w-100">
+          </figure>
+
+          <a href="#" class="btn btn-secondary">sport shoes</a>
+        </li>
+
+        <li class="category-item">
+          <figure class="category-banner">
+            <img src="images/partywear.jpeg" alt="Party wears" loading="lazy" width="510" height="600"
+              class="w-100">
+          </figure>
+
+          <a href="#" class="btn btn-secondary">Party wears</a>
+        </li>
+
+        <li class="category-item">
+          <figure class="category-banner">
+            <img src="images/treaking.jpeg" alt="Treaking wear" loading="lazy" width="510" height="600"
+              class="w-100">
+          </figure>
+
+          <a href="#" class="btn btn-secondary">Treaking Wear</a>
+        </li>
+
+        <li class="category-item">
+          <figure class="category-banner">
+            <img src="images/timberland boots.jpeg" alt="Boots" loading="lazy" width="510"
+              height="600" class="w-100">
+          </figure>
+
+          <a href="#" class="btn btn-secondary">boots</a>
+        </li>
+
+        <li class="category-item">
+          <figure class="category-banner">
+            <img src="images/ladies.jpeg" alt="ladies wears" loading="lazy" width="510" height="600"
+              class="w-100">
+          </figure>
+
+          <a href="#" class="btn btn-secondary">Ladies wears</a>
+        </li>
+
+        <li class="category-item">
+          <figure class="category-banner">
+            <img src="images/sandel.jpeg" alt="sandal" loading="lazy" width="510" height="600"
+              class="w-100">
+          </figure>
+
+          <a href="#" class="btn btn-secondary">Sandal</a>
+        </li>
+
+      </ul>
+
+    </div>
+  </section>
+
+
+
+
+
+  <!-- 
+    - #PRODUCT
+  -->
+
+  <section class="section product">
+    <div class="container">
+
+      <h2 class="h2 section-title">Latest product</h2>
+
+      <ul class="filter-list">
+
+        <li>
+          <button class="filter-btn  active">Best Seller</button>
+        </li>
+
+        <li>
+          <button class="filter-btn">Hot Collection</button>
+        </li>
+
+        <li>
+          <button class="filter-btn">Trendy</button>
+        </li>
+
+        <li>
+          <button class="filter-btn">New Arrival</button>
+        </li>
+
+      </ul>
+
+      <ul class="product-list">
+
+        <li>
+          <div class="product-card">
+
+            <figure class="card-banner">
+
+              <a href="#">
+                <img src="images/list 1.jpeg" alt="Erke sport shoes" loading="lazy" width="800"
+                  height="1034" class="w-100">
+              </a>
+
+              <div class="card-badge red"> -20%</div>
+
+              <div class="card-actions">
+
+                <button class="card-action-btn" aria-label="Quick view">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </button>
+
+                <button class="card-action-btn cart-btn">
+                  <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                  <p>Add to Cart</p>
+                </button>
+
+                <button class="card-action-btn" aria-label="Add to Whishlist">
+                  <ion-icon name="heart-outline"></ion-icon>
+                </button>
+
+              </div>
+
+            </figure>
+
+            <div class="card-content">
+              <h3 class="h4 card-title">
+                <a href="#">Erke Sport Shoes</a>
+              </h3>
+
+              <div class="card-price">
+                <data value="4000">Npr 3200</data>
+
+                <data value="3200">Npr 4000</data>
+              </div>
+            </div>
+
+          </div>
+        </li>
+
+        <li>
+          <div class="product-card">
+
+            <figure class="card-banner">
+
+              <a href="#">
+                <img src="images/list 2.jpeg" alt="Classic footware" loading="lazy" width="800"
+                  height="1034" class="w-100">
+              </a>
+
+              <div class="card-badge green"> New</div>
+
+              <div class="card-actions">
+
+                <button class="card-action-btn" aria-label="Quick view">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </button>
+
+                <button class="card-action-btn cart-btn">
+                  <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                  <p>Add to Cart</p>
+                </button>
+
+                <button class="card-action-btn" aria-label="Add to Whishlist">
+                  <ion-icon name="heart-outline"></ion-icon>
+                </button>
+
+              </div>
+
+            </figure>
+
+            <div class="card-content">
+              <h3 class="h4 card-title">
+                <a href="#">Classic footware</a>
+              </h3>
+
+              <div class="card-price">
+                <data value="3500">Npr 3500</data>
+              </div>
+            </div>
+
+          </div>
+        </li>
+
+        <li>
+          <div class="product-card">
+
+            <figure class="card-banner">
+
+              <a href="#">
+                <img src="images/list 3.jpeg" alt="Premiere classic A5" loading="lazy"
+                  width="800" height="1034" class="w-100">
+              </a>
+
+              <div class="card-actions">
+
+                <button class="card-action-btn" aria-label="Quick view">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </button>
+
+                <button class="card-action-btn cart-btn">
+                  <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                  <p>Add to Cart</p>
+                </button>
+
+                <button class="card-action-btn" aria-label="Add to Whishlist">
+                  <ion-icon name="heart-outline"></ion-icon>
+                </button>
+
+              </div>
+
+            </figure>
+
+            <div class="card-content">
+              <h3 class="h4 card-title">
+                <a href="#">Premiere classic A5</a>
+              </h3>
+
+              <div class="card-price">
+                <data value="4500">Npr 4500</data>
+              </div>
+            </div>
+
+          </div>
+        </li>
+
+        <li>
+          <div class="product-card">
+
+            <figure class="card-banner">
+
+              <a href="#">
+                <img src="images/list4.jpeg" alt="Timberland 32 inch " loading="lazy" width="800"
+                  height="1034" class="w-100">
+              </a>
+
+              <div class="card-actions">
+
+                <button class="card-action-btn" aria-label="Quick view">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </button>
+
+                <button class="card-action-btn cart-btn">
+                  <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                  <p>Add to Cart</p>
+                </button>
+
+                <button class="card-action-btn" aria-label="Add to Whishlist">
+                  <ion-icon name="heart-outline"></ion-icon>
+                </button>
+
+              </div>
+
+            </figure>
+
+            <div class="card-content">
+              <h3 class="h4 card-title">
+                <a href="#">Timberland 32 inch</a>
+              </h3>
+
+              <div class="card-price">
+                <data value="8500">Npr 8500</data>
+              </div>
+            </div>
+
+          </div>
+        </li>
+
+        <li>
+          <div class="product-card">
+
+            <figure class="card-banner">
+
+              <a href="#">
+                <img src="images/list 5.jpeg" alt="perfect treaking shoes" loading="lazy" width="800"
+                  height="1034" class="w-100">
+              </a>
+
+              <div class="card-actions">
+
+                <button class="card-action-btn" aria-label="Quick view">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </button>
+
+                <button class="card-action-btn cart-btn">
+                  <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                  <p>Add to Cart</p>
+                </button>
+
+                <button class="card-action-btn" aria-label="Add to Whishlist">
+                  <ion-icon name="heart-outline"></ion-icon>
+                </button>
+
+              </div>
+
+            </figure>
+
+            <div class="card-content">
+              <h3 class="h4 card-title">
+                <a href="#">Perfect treaking shoes</a>
+              </h3>
+
+              <div class="card-price">
+                <data value="6300">Npr 6300</data>
+              </div>
+            </div>
+
+          </div>
+        </li>
+
+        <li>
+          <div class="product-card">
+
+            <figure class="card-banner">
+
+              <a href="#">
+                <img src="images/list 6.jpeg" alt="C50 ladies sandal" loading="lazy" width="800"
+                  height="1034" class="w-100">
+              </a>
+
+              <div class="card-actions">
+
+                <button class="card-action-btn" aria-label="Quick view">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </button>
+
+                <button class="card-action-btn cart-btn">
+                  <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                  <p>Add to Cart</p>
+                </button>
+
+                <button class="card-action-btn" aria-label="Add to Whishlist">
+                  <ion-icon name="heart-outline"></ion-icon>
+                </button>
+
+              </div>
+
+            </figure>
+
+            <div class="card-content">
+              <h3 class="h4 card-title">
+                <a href="#">C50 ladies sandal</a>
+              </h3>
+
+              <div class="card-price">
+                <data value="2260">Npr 2260</data>
+
+                <data value="2800">Npr 2800</data>
+              </div>
+            </div>
+
+          </div>
+        </li>
+
+        <li>
+          <div class="product-card">
+
+            <figure class="card-banner">
+
+              <a href="#">
+                <img src="images/list 7.jpeg" alt="tiberland ladies boot" loading="lazy" width="800"
+                  height="1034" class="w-100">
+              </a>
+
+              <div class="card-actions">
+
+                <button class="card-action-btn" aria-label="Quick view">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </button>
+
+                <button class="card-action-btn cart-btn">
+                  <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                  <p>Add to Cart</p>
+                </button>
+
+                <button class="card-action-btn" aria-label="Add to Whishlist">
+                  <ion-icon name="heart-outline"></ion-icon>
+                </button>
+
+              </div>
+
+            </figure>
+
+            <div class="card-content">
+              <h3 class="h4 card-title">
+                <a href="#">tiberland ladies boot</a>
+              </h3>
+
+              <div class="card-price">
+                <data value="3200">Npr 3200</data>
+
+                <data value="3800">Npr 3800</data>
+              </div>
+            </div>
+            
+
+          </div>
+        </li>
+        <li>
+          <div class="product-card">
+
+            <figure class="card-banner">
+
+              <a href="#">
+                <img src="images/product1.jpeg" alt="tiberland ladies boot" loading="lazy" width="800"
+                  height="1034" class="w-100">
+              </a>
+
+              <div class="card-actions">
+
+                <button class="card-action-btn" aria-label="Quick view">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </button>
+
+                <button class="card-action-btn cart-btn">
+                  <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                  <p>Add to Cart</p>
+                </button>
+
+                <button class="card-action-btn" aria-label="Add to Whishlist">
+                  <ion-icon name="heart-outline"></ion-icon>
+                </button>
+
+              </div>
+
+            </figure>
+
+            <div class="card-content">
+              <h3 class="h4 card-title">
+                <a href="#">Casual A-15</a>
+              </h3>
+
+              <div class="card-price">
+                <data value="3200">Npr 3800</data>
+
+                <data value="3800">Npr 4000</data>
+              </div>
+            </div>
+            
+
+          </div>
+        </li>
+        <li>
+          <div class="product-card">
+
+            <figure class="card-banner">
+
+              <a href="#">
+                <img src="images/product 2.jpeg" alt="tiberland ladies boot" loading="lazy" width="800"
+                  height="1034" class="w-100">
+              </a>
+
+              <div class="card-actions">
+
+                <button class="card-action-btn" aria-label="Quick view">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </button>
+
+                <button class="card-action-btn cart-btn">
+                  <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                  <p>Add to Cart</p>
+                </button>
+
+                <button class="card-action-btn" aria-label="Add to Whishlist">
+                  <ion-icon name="heart-outline"></ion-icon>
+                </button>
+
+              </div>
+
+            </figure>
+
+            <div class="card-content">
+              <h3 class="h4 card-title">
+                <a href="#">Vans F-14</a>
+              </h3>
+
+              <div class="card-price">
+                <data value="2800">Npr 2800</data>
+
+                
+              </div>
+            </div>
+            
+
+          </div>
+        </li>
+        <li>
+          <div class="product-card">
+
+            <figure class="card-banner">
+
+              <a href="#">
+                <img src="images/product3.jpeg" alt="tiberland ladies boot" loading="lazy" width="800"
+                  height="1034" class="w-100">
+              </a>
+
+              <div class="card-actions">
+
+                <button class="card-action-btn" aria-label="Quick view">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </button>
+
+                <button class="card-action-btn cart-btn">
+                  <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                  <p>Add to Cart</p>
+                </button>
+
+                <button class="card-action-btn" aria-label="Add to Whishlist">
+                  <ion-icon name="heart-outline"></ion-icon>
+                </button>
+
+              </div>
+
+            </figure>
+
+            <div class="card-content">
+              <h3 class="h4 card-title">
+                <a href="#">As-908</a>
+              </h3>
+
+              <div class="card-price">
+                <data value="3700">Npr 3700</data>
+
+               
+              </div>
+            </div>
+            
+
+          </div>
+        </li>
+        <li>
+          <div class="product-card">
+
+            <figure class="card-banner">
+
+              <a href="#">
+                <img src="images/product 4.jpeg" alt="tiberland ladies boot" loading="lazy" width="800"
+                  height="1034" class="w-100">
+              </a>
+
+              <div class="card-actions">
+
+                <button class="card-action-btn" aria-label="Quick view">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </button>
+
+                <button class="card-action-btn cart-btn">
+                  <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                  <p>Add to Cart</p>
+                </button>
+
+                <button class="card-action-btn" aria-label="Add to Whishlist">
+                  <ion-icon name="heart-outline"></ion-icon>
+                </button>
+
+              </div>
+
+            </figure>
+
+            <div class="card-content">
+              <h3 class="h4 card-title">
+                <a href="#">Casual H-88</a>
+              </h3>
+
+              <div class="card-price">
+                <data value="3400">Npr 3400</data>
+
+              </div>
+            </div>
+            
+
+          </div>
+        </li>
+
+
+        
+
+      <button class="btn btn-outline">View All Products</button>
+
+    </div>
+    <footer class="footer">
+
+      <div class="footer-top">
+        <div class="container">
+  
+          <div class="footer-brand">
+  
+  
+      <h1>          Kankrebihar Impex</h1>
+  
+            <p class="footer-text">
+              Kankrebihar Impex is a fashion theme establish on 1998 AD .It is well establish for presents a complete wardrobe of uniquely crafted Ethnic Wear, Casuals, Edgy
+              Denims, &
+              brand inspired from the most contemporary
+            </p>
+  
+            <ul class="social-list">
+  
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+  
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+  
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+  
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-pinterest"></ion-icon>
+                </a>
+              </li>
+  
+            </ul>
+  
+          </div>
+  
+          <ul class="footer-list">
+  
+            <li>
+              <p class="footer-list-title">Information</p>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-link">About Company</a>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-link">Payment Type</a>
+            </li>
+  
+  
+            <li>
+              <a href="#" class="footer-link">Become an Reseller</a>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-link">Refund Policy</a>
+            </li>
+  
+          </ul>
+  
+          <ul class="footer-list">
+  
+            <li>
+              <p class="footer-list-title">Category</p>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-link">Classic boots</a>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-link">ladies ware</a>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-link">Plus Sizes</a>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-link">Complete Your Look</a>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-link">Baby Corner</a>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-link">Man & Woman Shoes</a>
+            </li>
+  
+          </ul>
+  
+          <ul class="footer-list">
+  
+            <li>
+              <p class="footer-list-title">Help & Support</p>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-link">Dealers & Agents</a>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-link">FAQ Information</a>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-link">Return Policy</a>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-link">Shipping & Delivery</a>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-link">Order Tranking</a>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-link">List of Shops</a>
+            </li>
+  
+          </ul>
+  
+        </div>
+      </div>
+  
+      <div class="footer-bottom">
+        <div class="container">
+  
+          <p class="copyright">
+            &copy; 2022 <a href="#">code with Yeril</a>. All Rights Reserved
+          </p>
+  
+          <ul class="footer-bottom-list">
+  
+            <li>
+              <a href="#" class="footer-bottom-link">Privacy Policy</a>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-bottom-link">Terms & Conditions</a>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-bottom-link">Sitemap</a>
+            </li>
+  
+          </ul>
+  
+          <div class="payment">
+            <p class="payment-title">We Support</p>
+  
+            <img src="images/payment-img.png" alt="Online payment logos" class="payment-img">
+          </div>
+  
+        </div>
+      </div>
+  
+    </footer>
+  
+  
+  
+  
+  
+  
+  </body>
+  
+  </html>
+
+
+    
